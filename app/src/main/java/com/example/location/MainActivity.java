@@ -78,12 +78,12 @@ public class MainActivity extends AppCompatActivity {
                                 location.getLatitude(),location.getLongitude(),1
                         );
                         textView1.setText(Html.fromHtml(
-                                "<font color = '#6200EE'><b>Lattitude:</b><br></font>"
+                                "<font color = '#6200EE'><b>lattitude:</b><br></font>"
                                 + addresses.get(0).getLatitude()
                         ));
 
                         textView2.setText(Html.fromHtml(
-                                "<font color = '#6200EE'><b>Longitude:</b><br></font>"
+                                "<font color = '#6200EE'><b>longitude:</b><br></font>"
                                         + addresses.get(0).getLongitude()
                         ));
 
